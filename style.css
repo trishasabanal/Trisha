@@ -1,0 +1,127 @@
+.contactinfo-html, .contactinfo-body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contactinfo-body{
+    background: linear-gradient(to bottom, #4169E1, #0d0d18);
+    font-family: 'Gloock', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: aliceblue;
+    width: 500px;
+    height: 430px;
+    padding: 50px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: #1ea7fc;
+    letter-spacing: 0.1em;
+    line-height: 1.2rem;
+}
+
+h1{
+    text-align: center;
+    color: #1ea7fc;
+}
+
+input[type="text"], textarea{
+    font-family: Georgia;
+}
+
+input[type="submit"]{
+    font-family: 'Gloock', serif;
+    background-color: #1ea7fc;
+    color: white;
+    border: white;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+input[type="reset"]{
+    font-family: 'Gloock', serif;
+    background-color: gray;
+    color: whitesmoke;
+    border: 1px black;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.container{
+    width: 100%;
+}
+
+.backicon{
+    width: 30px;
+    height: 30px;
+}
+
+.socials{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: right;
+}
+
+.resume-body{
+    background-color: #97ccfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.picture{
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    width: 170px;
+    height: 170px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+.resume-div{
+    background-color: white;
+    padding: 20px 40px 50px 40px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.resume-h1{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #242d54;
+}
+
+h3,th[colspan]{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: left;
+    color: #242d54;
+}
+
+.resume-container{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button{
+    background-color: #1ea7fc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
